@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Private Build Java 1.8.0_292)
+[debug]       Load.loadUnit: plugins took 104.182895ms
+[debug]       Load.loadUnit: defsScala took 0.4564ms
+[debug] [Loading] Scanning directory /home/abou/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/abou/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.360915 ms
+[debug]           Load.resolveProject(global-plugins) took 49.370432ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/abou/.sbt/1.0/plugins, plugins: List(<none>))) took 262.985394ms
+[debug] [Loading] Done in /home/abou/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 293.374944ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.283107ms
+[debug]     Load.loadUnit(file:/home/abou/.sbt/1.0/plugins/, ...) took 407.682254ms
+[debug]   Load.apply: load took 581.699084ms
+[debug]   Load.apply: resolveProjects took 6.198367ms
+[debug]   Load.apply: finalTransforms took 55.594109ms
+[debug]   Load.apply: config.delegates took 7.314953ms
+[debug]   Load.apply: Def.make(settings)... took 398.246321ms
+[debug]   Load.apply: structureIndex took 107.288869ms
+[debug]   Load.apply: mkStreams took 2.048396ms
+[info] loading global plugins from /home/abou/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2863.821408ms
+[debug]           Load.loadUnit: plugins took 18.32049ms
+[debug]           Load.loadUnit: defsScala took 0.004437ms
+[debug] [Loading] Scanning directory /home/abou/IdeaProjects/best-pratices-spark/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/abou/IdeaProjects/best-pratices-spark/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.524976 ms
+[debug]               Load.resolveProject(best-pratices-spark-build) took 1.39186ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id best-pratices-spark-build, base: /home/abou/IdeaProjects/best-pratices-spark/project, plugins: List(<none>))) took 4.629723ms
+[debug] [Loading] Done in /home/abou/IdeaProjects/best-pratices-spark/project, returning: (best-pratices-spark-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 6.808928ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.011687ms
+[debug]         Load.loadUnit(file:/home/abou/IdeaProjects/best-pratices-spark/project/, ...) took 25.946282ms
+[debug]       Load.apply: load took 27.255873ms
+[debug]       Load.apply: resolveProjects took 0.133331ms
+[debug]       Load.apply: finalTransforms took 12.478807ms
+[debug]       Load.apply: config.delegates took 0.405122ms
+[debug]       Load.apply: Def.make(settings)... took 99.417606ms
+[debug]       Load.apply: structureIndex took 25.517364ms
+[debug]       Load.apply: mkStreams took 0.002214ms
+[info] loading project definition from /home/abou/IdeaProjects/best-pratices-spark/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 365.806978ms
+[debug]     Load.loadUnit: defsScala took 0.003783ms
+[debug] [Loading] Scanning directory /home/abou/IdeaProjects/best-pratices-spark
+[debug]       Load.loadUnit: mkEval took 6.902188ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/abou/IdeaProjects/best-pratices-spark, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.817495 ms
+[info] loading settings for project best-pratices-spark from build.sbt ...
+[debug]         Load.resolveProject(best-pratices-spark) took 3.01834ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id best-pratices-spark, base: /home/abou/IdeaProjects/best-pratices-spark, plugins: List(<none>))) took 5.427835ms
+[debug] [Loading] Done in /home/abou/IdeaProjects/best-pratices-spark, returning: (best-pratices-spark)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1737.58475ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.067365ms
+[debug]   Load.loadUnit(file:/home/abou/IdeaProjects/best-pratices-spark/, ...) took 2111.238098ms
+[debug] Load.apply: load took 2112.476929ms
+[debug] Load.apply: resolveProjects took 0.108571ms
+[debug] Load.apply: finalTransforms took 9.353054ms
+[debug] Load.apply: config.delegates took 0.471661ms
+[debug] Load.apply: Def.make(settings)... took 129.900656ms
+[debug] Load.apply: structureIndex took 23.615655ms
+[debug] Load.apply: mkStreams took 0.002089ms
+[info] set current project to best-pratices-spark (in build file:/home/abou/IdeaProjects/best-pratices-spark/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/abou/.sbt/1.0/server/ff9da320cfbacd7f33e8/sock
+[info] started sbt server
